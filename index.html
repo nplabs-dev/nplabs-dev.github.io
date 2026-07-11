@@ -6,6 +6,7 @@
     <meta name="google-site-verification" content="V23p0M3fbR-kqu191htjwlVZGLvMnXURJ2HKx5QOdiM" />
     <title>NP LABS | Experimental Game Studio</title>
     <meta name="description" content="NP LABS is an independent game studio crafting thoughtful and unconventional digital experiences.">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -88,13 +89,14 @@
             box-shadow: inset 0 0 10px rgba(141, 2, 31, 0.2);
         }
         .scroll-cue {
-            margin-top: 3.5rem;
+            display: block;
+            width: max-content;
+            margin: 3.5rem auto 0;
             font-size: .75rem;
             letter-spacing: 3px;
             text-transform: uppercase;
             color: #5c5c5c;
             text-decoration: none;
-            display: inline-block;
         }
         .scroll-cue:hover { color: var(--crimson-bright); }
         .scroll-cue span { display: block; margin-top: .4rem; font-size: 1rem; }
@@ -187,19 +189,7 @@
     <header class="hero">
         <div class="hero-inner">
             <div class="logo-container">
-                <!-- Logo NP LABS — versione bianco/rosso (per fondo scuro).
-                     Se vuoi usare il PNG originale: <img src="assets/logo.png" alt="NP LABS"> -->
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 250" width="100%" height="100%" role="img" aria-label="NP LABS">
-                    <rect x="25" y="25" width="220" height="170" fill="#8d021f"/>
-                    <path d="M70,110 C70,85 90,70 135,70 C180,70 200,85 200,110 C200,135 190,160 180,160 C170,160 165,145 135,145 C105,145 100,160 90,160 C80,160 70,135 70,110 Z" fill="#ffffff"/>
-                    <polygon points="100,102 108,102 108,94 116,94 116,102 124,102 124,110 116,110 116,118 108,118 108,110 100,110" fill="#8d021f"/>
-                    <circle cx="154" cy="114" r="7" fill="#8d021f"/>
-                    <circle cx="170" cy="114" r="7" fill="#8d021f"/>
-                    <circle cx="162" cy="100" r="7" fill="#8d021f"/>
-                    <circle cx="162" cy="128" r="7" fill="#8d021f"/>
-                    <text x="275" y="115" font-family="'Segoe UI', Arial, sans-serif" font-size="92" font-weight="900" fill="#ffffff" letter-spacing="2">NP</text>
-                    <text x="275" y="185" font-family="'Segoe UI', Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff" letter-spacing="3">LABS</text>
-                </svg>
+                <img src="assets/logo.png" alt="NP LABS" width="452" height="182">
             </div>
 
             <h2>Welcome</h2>
